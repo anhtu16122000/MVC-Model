@@ -5,6 +5,7 @@
            $data  = $std->getAllSV();
            $this->show("home",[
                 "page"=>"main",
+                "another"=>"for example",
                 "data"=>$data
            ]);
         }
